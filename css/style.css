@@ -74,6 +74,15 @@ html {
   height: 100%;
 }
 
+@media (max-width: 616px) {
+  .my-bio-img {
+    display: none;
+  }
+  .my-circle-photo {
+    display: block;
+  }
+}
+
 @media (max-width: 520px) {
   .my-circle-photo {
     margin-left: 350px;
@@ -103,15 +112,6 @@ html {
     margin-left: 230px;
     height: 65px;
     width: 65px;
-  }
-}
-
-@media (max-width: 586px) {
-  .my-bio-img {
-    display: none;
-  }
-  .my-circle-photo {
-    display: block;
   }
 }
 
@@ -150,6 +150,12 @@ html {
   margin-top: 45px;
   margin-left: 80px;
   margin-right: 130px;
+}
+
+.bio-links img:hover {
+  cursor: pointer;
+  transition: 1s linear;
+  filter: brightness(200%);
 }
 
 @media (max-width: 1200px) {
@@ -217,6 +223,24 @@ html {
   margin-top: -10px;
 }
 
+@media (max-width: 908px) {
+  .my-info-2 h2 {
+font-size: 17px;
+  }
+  .my-info-2 h3 {
+    font-size: 17px;
+      }
+}
+
+@media (max-width: 432px) {
+  .my-info-2 h2 {
+font-size: 13px;
+  }
+  .my-info-2 h3 {
+    font-size: 13px;
+      }
+}
+
 @media (max-width: 450px) {
   .my-info h2 {
     font-size: 21px;
@@ -248,7 +272,7 @@ html {
 
 .career-block-all {
   margin-top: 30px;
-  margin-left: 40px;
+  /* margin-left: 40px; */
   margin-right: 100px;
 }
 
@@ -338,7 +362,7 @@ html {
 .my-skills h1 {
   font-size: 40px;
   color: #5e9fc1;
-  margin-top: 30px;
+  margin-top: 60px;
   margin-left: 120px;
 }
 
@@ -371,9 +395,6 @@ html {
   .my-skills-img {
     flex-wrap: wrap;
   }
-}
-
-.my-skills-img {
 }
 
 /* footer */
